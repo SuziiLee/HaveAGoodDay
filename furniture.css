@@ -1,0 +1,138 @@
+/* 전체 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    /* *에 주게 되면 아래 text-decoration 적용이 안됨. */
+}
+body {
+    background: #fefefe;
+}
+/* 구조화 */
+#wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* border: 1px solid #f00; */
+}
+
+/* HEADER/GNB 2022-11-18 PM 12:20 */
+header {
+    background: #fdfdfd;
+    box-shadow: 0 1px 3px #ccc;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    /* inherit 상속
+    - 상위의 아이를 가져오겠다.  */
+    height: 90px;
+    z-index: 2000;
+}
+h1 a {
+    position: absolute;
+    left: 20px;
+    top: 23px;
+    color: #000;
+}
+nav {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+nav li a:hover {
+    color: #E81224;
+}
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+nav li a {
+    color: #888;
+}
+
+
+/* 하단 공간 footer */
+footer {
+    height: 200px;
+    clear: both;
+    background: #E2E8ED;
+    position: relative;
+    color: #333;
+    font-size: 12px;
+}
+footer li:nth-child(1) {
+    width: 160px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+footer li:nth-child(1) p:nth-child(1) {
+    line-height: 2.4em;
+}
+footer li:nth-child(1) p:nth-child(2) {
+    line-height: 1.3em;
+}
+footer li:nth-child(1) p img {
+    width: 22px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+}
+footer li:nth-child(2) {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 230px;
+}
+footer li:nth-child(2) p img {
+    width: 35px;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+footer li:nth-child(3) {
+    /* width: 200px; */
+    position: absolute;
+    top: 30px;
+    left: 488px;
+    /* right: 50px; */
+}
+
+footer input {
+    width: 300px;
+    padding: 8px;
+    margin: 14px 0 5px;
+    border: none;
+}
+footer button {
+    width: 316px;
+    padding: 6px;
+    background: #666;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+footer button:hover {
+    background: #454545;
+    /* border: 1px solid #1d1d00; */
+}
+
+footer .copy {
+    position: absolute;
+    background: #ced3d8;
+    padding: 10px;
+    width: 97.8%;
+    /* width: inherit; */
+    bottom: 0;
+}
+footer .copy p {
+    /* left: 36%; */
+    /* color: #fff; */
+    text-align: center;
+    font-size: 11px;
+}
+

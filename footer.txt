@@ -1,0 +1,59 @@
+<!-- 하단 푸터영역 -->
+        <footer>
+            <div>
+                <ul>
+                    <li>
+                        <!-- 1번째 공간 -->
+                        <p>
+                            문의
+                        </p>
+                        <p>
+                            010-1234-5678<br>
+                            suji_suzi@happy.com
+
+                        </p>
+                        <p>
+                            <!-- 
+                                웹아이콘 삽입 
+                                컬러 변경할 때, 일일이 이미지 수정이 아닌
+                                해당 경로 링크로 들어가서 컬러 수정 해주면 됨.
+
+                                type01.
+                                css로 컬러가 들어가 있는 경우, 컬러코드만 변경.
+                                <style type="text/css">.st0{fill:#FFF;}</style>
+
+                                type02.
+                                컬러 스타일이 별도로 없는 경우, path 태그 안에 fill="색상코드" 속성 기입.
+                                <path fill="#fff" .../>
+                            -->
+                            <img src="img/cart.svg" alt="장바구니">
+                            <img src="img/shop.svg" alt="쇼핑">
+                            <img src="img/local.svg" alt="계열사타페이지">
+                        </p>
+                    </li>
+                    <li>
+                        <!-- 2번째 공간 -->
+                        <p>100% 안심결제</p>
+                        <p>
+                        <img src="img/credit_card.svg" alt="신용카드">
+                        <img src="img/payments.svg" alt="현금">
+                        <img src="img/savings.svg" alt="적립">
+                        <img src="img/sell.svg" alt="팔기">
+                    </p>
+                    </li>
+                    <li>
+                        <!-- 3번째 공간 -->
+                        <p>뉴스레터 구독하기</p>
+                        <form action="">
+                        <input type="email" placeholder="이메일 주소를 입력하세요." required>
+                        <br><button type="submit">가입하기</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy">
+                <p>
+                Copyright 2022ⓒ Designer Suzi Lee
+            </p>
+            </div>
+        </footer>

@@ -1,0 +1,44 @@
+#contents {
+    position: relative;
+    top: 100px;
+    height: 800px;
+}
+#contents h2 {
+    font-size: 26px;
+    color: #000;
+    margin: 20px 20px 30px;
+}
+#contents ul {
+    margin: 20px 20px 20px 10px;
+}
+#contents ul li {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+#contents ul li:hover {
+    opacity: 80%;
+}
+#contents ul li img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+#contents ul li h6 {
+    font-size: 14px;
+    color: #222;
+    margin: 10px 0 6px;
+}
+#contents ul li p {
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: #222;
+}
+#contents #line1 li .new {
+    position: absolute;
+    z-index: 999;
+    padding: 12px 10px;
+    background: #E81224;
+    color: #fff;
+}

@@ -1,0 +1,54 @@
+#contact {
+    position: relative;
+    top: 100px;
+    margin: 20px;
+    height: 700px;
+}
+#contact h2 {
+    margin: 0 0 30px;
+}
+#left {
+    float: left;
+}
+
+#left input {
+    background: none;
+    border: none;
+    font-size: 17px;
+}
+#left p {
+    margin: 30px 0 0;
+    width: 380px;
+    text-align: justify;
+    letter-spacing: -0.04em;
+    line-height: 1.65em;
+}
+
+#right {
+    float: right;
+    /* border: 1px solid purple; */
+    width: 440px;
+}
+#right input,textarea {
+    margin: 0 0 5px 0;
+    padding: 9px;
+    width: 420px;
+    font-family: "맑은 고딕";
+    border: 1px solid #ccc;
+}
+#right textarea {
+    resize: none;
+    height: 160px;
+    /* padding: 9px 12px 9px 9px; */
+}
+#right button {
+    padding: 10px 60px;
+    border: none;
+    border-radius: 0;
+    background: #666;
+    color: #fff;
+    float: right;
+}
+#right button:hover {
+    background: #454545;
+}

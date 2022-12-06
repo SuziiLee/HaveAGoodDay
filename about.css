@@ -1,0 +1,63 @@
+#contents {
+    position: relative;
+    top: 100px;
+    height: 1250px;
+}
+#contents h2 {
+    margin: 0 0 30px;
+}
+#contents p {
+    margin: 0 0 25px;
+    letter-spacing: -0.04em;
+    line-height: 1.68em;
+    font-size: 14px;
+}
+
+/* About 소개 부분 */
+#about {
+    /* border: 1px solid purple; */
+    padding: 20px;
+}
+#about #about_txt {
+    width: 400px;
+    text-align: justify;
+}
+/* #about h2 {
+    margin: 0 0 30px;
+}
+#about p {
+    margin: 0 0 25px;
+    letter-spacing: -0.04em;
+    line-height: 1.68em;
+    font-size: 14px;
+} */
+#about img {
+    position: absolute;
+    top: 89px;
+    right: 20px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+hr {
+    margin: 20px;
+}
+/* FAQ 부분 */
+#faq {
+    /* border: 1px solid yellow; */
+    padding: 20px;
+}
+#faq ul {
+    width: 400px;
+    float: left;
+}
+#faq #right {
+    float: right;
+}
+#faq h4 {
+    margin: 0 0 8px;
+}
+.clear_faq {
+    clear: both;
+}

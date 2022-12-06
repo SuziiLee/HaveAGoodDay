@@ -1,0 +1,201 @@
+/* 2ndline/MAIN */
+main {
+    width: inherit;
+    height: 340px;
+    position: absolute;
+    top: 100px;
+    background: url(img/interior_img05.jpg) no-repeat right -40px;
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+main h2 {
+    color: #0F0F00;
+    width: 200px;
+    font-size: 36px;
+    line-height: 1.2em;
+    padding: 50px 20px 0;
+}
+main p {
+    color: #0F0F00;
+    font-weight: 700;
+    text-decoration: 2px underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #0F0F00;
+    letter-spacing: 0.15em;
+    padding: 35px 20px 0;
+    text-shadow: 0 1px 6px #fff;
+}
+
+
+/* 2022-11-21 AM 9:00 */
+/* section 첫번째 공간 */
+#list01 {
+    /* 시작되는 위치값을 margin으로 처리 */
+    margin: 450px 0 0 ;
+}
+#layout1 {
+    background: url(img/interior_img08.jpg) no-repeat center;
+    background-size: cover;
+    width: 300px;
+    height: 580px;
+    float: left;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+#layout2 {
+    width: 300px;
+    float: left;
+}
+#layout2 .img_style1 {
+    background: url(img/interior_img10.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+#layout2 .img_style2 {
+    background: url(img/interior_img07.jpg);
+    background-size: cover ;
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+    cursor: pointer;
+}
+#layout3 {
+    width: 300px;
+    float: left;
+}
+#layout3 .img_title {
+    background: #0F0F00 ;
+    width: 280px;
+    height: 120px;
+    line-height: 120px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 20px 20px;
+}
+#layout3 .img_style3 {
+    background: url(img/interior_img06.jpg) center;
+    background-size: cover ;
+    width: 280px;
+    height: 440px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+/* 두번째 section */
+/* 절대경로로 처리해줘야만 동일한 레이아웃을 사용하는데 있어 2번째 section부분만 변경하고, 기존에 있는 곳이 변경되지 않음. */
+#list02 {
+    /* 위치값 */
+}
+#list02 #layout3 {
+    width: 300px;
+    float: left;
+}
+#list02 #layout3 .img_title {
+    background: #0F0F00 ;
+    width: 300px;
+    height: 120px;
+    line-height: 120px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 20px 20px 0;
+}
+#list02 #layout3 .img_style3 {
+    background: url(img/interior_img01.jpg);
+    background-size: cover ;
+    width: 300px;
+    height: 440px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+#list02 #layout1 {
+    background: url(img/interior_img12.jpg) no-repeat center;
+    background-size: cover;
+    width: 280px;
+    height: 580px;
+    float: left;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+}
+#list02 #layout2 {
+    width: 300px;
+    float: left;
+}
+#list02 #layout2 .img_style1 {
+    background: url(img/interior_img13.jpg) center;
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+#list02 #layout2 .img_style2 {
+    background: url(img/interior_img14.jpg);
+    background-size: cover ;
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* 세번째 section */
+#list03 #layout1 {
+    background: url(img/interior_img03.jpg) no-repeat center;
+    background-size: cover;
+    width: 300px;
+    height: 580px;
+    float: left;
+    margin: 0 0 0;
+    cursor: pointer;
+}
+#list03 #layout2 {
+    width: 300px;
+    float: left;
+}
+#list03 #layout2 .img_style1 {
+    background: url(img/interior_img04.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+#list03 #layout2 .img_style2 {
+    background: url(img/interior_img05.jpg) center;
+    background-size: cover ;
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+    cursor: pointer;
+}
+#layout3 {
+    width: 300px;
+    float: left;
+}
+#list03 #layout3 .img_title {
+    background: #0F0F00 ;
+    width: 280px;
+    height: 120px;
+    line-height: 120px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 20px 20px;
+}
+#list03 #layout3 .img_style3 {
+    background: url(img/interior_img11.jpg);
+    background-size: cover ;
+    width: 280px;
+    height: 440px;
+    margin: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,154 @@
+<!-- 
+&nbsp;  공백
+&amp;   &표시
+&lt;    <표시
+&gt;    >표시
+&copy;  copyright표시 
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MODERN</title>
+    <!-- header,footer - furniture.css -->
+    <link rel="stylesheet" href="furniture.css">
+    <!-- Main home - index.css -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1><a href="index.html">MODERN</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="list_interior.html">Interior</a></li>
+                    <li><a href="list_kitchen.html">Kitchen</a></li>
+                    <li><a href="list_bedroom.html">Bedroom</a></li>
+                    <!-- <li><a href="product.html">Product</a></li> -->
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="notice.html">Notice</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <h2>MODERN DESIGN & COZY COMFORT</h2>
+            <p>북유럽스타일 인테리어의 아늑함</p>
+        </main>
+
+<!-- 이미지 첫번째 -->
+<!-- 동일한 레이아웃이 반복되고 있기 때문에 공간을 3개로 나누어 만들어 순서만 변경하여 진행 -->
+        <section id="list01">
+            <!-- 1번째 공간 -->
+            <article id="layout1">
+                <!-- 긴의자 -->
+            </article>
+            <article id="layout2">
+                <div class="img_style1"></div>
+                <div class="img_style2"></div>
+            </article>
+            <article id="layout3">
+                <div class="img_title">DECOR</div>
+                <div class="img_style3"></div>
+            </article>
+        </section>
+        
+<!-- 이미지 두번째 -->
+        <section id="list02">
+            <!-- 2번째 공간 -->
+            <article id="layout3">
+                <div class="img_title">KITCHEN</div>
+                <div class="img_style3"></div>
+            </article>
+            <article id="layout1">
+                <!-- 긴의자 -->
+            </article>
+            <article id="layout2">
+                <div class="img_style1"></div>
+                <div class="img_style2"></div>
+            </article>
+        </section>
+        
+<!-- 이미지 세번째  -->
+        <section id="list03">
+            <!-- 3번째 공간 -->
+            <article id="layout1">
+                <!-- 박스 흰타올 -->
+            </article>
+            <article id="layout2">
+                <div class="img_style1"></div>
+                <div class="img_style2"></div>
+            </article>
+            <article id="layout3">
+                <div class="img_title">BEDROOM</div>
+                <div class="img_style3"></div>
+            </article>
+        </section>
+
+
+
+<!-- 하단 푸터영역 -->
+        <footer>
+            <div>
+                <ul>
+                    <li>
+                        <!-- 1번째 공간 -->
+                        <p>
+                            문의
+                        </p>
+                        <p>
+                            010-1234-5678<br>
+                            suji_suzi@happy.com
+
+                        </p>
+                        <p>
+                            <!-- 
+                                웹아이콘 삽입 
+                                컬러 변경할 때, 일일이 이미지 수정이 아닌
+                                해당 경로 링크로 들어가서 컬러 수정 해주면 됨.
+
+                                type01.
+                                css로 컬러가 들어가 있는 경우, 컬러코드만 변경.
+                                <style type="text/css">.st0{fill:#FFF;}</style>
+
+                                type02.
+                                컬러 스타일이 별도로 없는 경우, path 태그 안에 fill="색상코드" 속성 기입.
+                                <path fill="#fff" .../>
+                            -->
+                            <img src="img/cart.svg" alt="장바구니">
+                            <img src="img/shop.svg" alt="쇼핑">
+                            <img src="img/local.svg" alt="계열사타페이지">
+                        </p>
+                    </li>
+                    <li>
+                        <!-- 2번째 공간 -->
+                        <p>100% 안심결제</p>
+                        <p>
+                        <img src="img/card_01.png" alt="visa">
+                        <img src="img/card_02.png" alt="master card">
+                        <img src="img/card_03.png" alt="google pay">
+                        <img src="img/card_04.png" alt="apple pay">
+                    </p>
+                    </li>
+                    <li>
+                        <!-- 3번째 공간 -->
+                        <p>뉴스레터 구독하기</p>
+                        <form action="">
+                        <input type="email" placeholder="이메일 주소를 입력하세요." required>
+                        <br><button type="submit">가입하기</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy">
+                <p>
+                Copyright 2022&copy; Designer Suzi Lee
+            </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
