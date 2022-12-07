@@ -61,7 +61,7 @@ nav li a {
 
 
 /* 하단 공간 footer */
-#contents, main {
+#contents, main, #contact {
     flex: 1 1 auto;
 }
 footer {
