@@ -10,6 +10,7 @@ a {
 }
 body {
     background: #fefefe;
+    height: 100%;
 }
 /* 구조화 */
 #wrap {
@@ -59,12 +60,10 @@ nav li a {
 }
 
 
+/* 하단 공간 footer */
 #contents {
     flex: 1 1 auto;
 }
-
-
-/* 하단 공간 footer */
 footer {
     height: 200px;
     clear: both;
