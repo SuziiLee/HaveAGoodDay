@@ -17,6 +17,9 @@ body {
     margin: 0 auto;
     padding: 0 10px;
     /* border: 1px solid #f00; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* HEADER/GNB 2022-11-18 PM 12:20 */
@@ -31,6 +34,7 @@ header {
     - 상위의 아이를 가져오겠다.  */
     height: 90px;
     z-index: 2000;
+    flex: 0 0 auto;
 }
 h1 a {
     position: absolute;
@@ -55,6 +59,11 @@ nav li a {
 }
 
 
+#contents {
+    flex: 1 1 auto;
+}
+
+
 /* 하단 공간 footer */
 footer {
     height: 200px;
@@ -63,6 +72,7 @@ footer {
     position: relative;
     color: #333;
     font-size: 12px;
+    flex: 0 0 auto;
 }
 footer li:nth-child(1) {
     width: 160px;
